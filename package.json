@@ -1,0 +1,33 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start: dev": "nodemone index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolterBait/express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BolterBait/express/issues"
+  },
+  "homepage": "https://github.com/BolterBait/express#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.3"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^4.18.2"
+  }
+}
